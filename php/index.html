@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tab-Titel-->
+    <title>Startseite</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="../css/index.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--HEADER ANFANG-->
+    <div class="container">
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="../img/LogoNeu.png" width="30" height="30" class="align-top" alt="Logo Senatsverwaltung für Bildung, Jugend und Familie" >
+             </a>
+        </nav>
+    </div>
+    <!--HEADER ENDE-->
+
+
+    <div class="container" id="headline-container">
+        <div class="row" id="headline-row">
+            <!--ÜBERSCHRIFT ANFANG-->
+            <div class="col-lg-12" id="text-col">
+                <h1>Herzlich Willkommen<br> zur digitalen Auslosung</h1>
+                <h5 class="text-uppercase">fair, transparent und digital</h5>
+            </div>
+            <!--ÜBERSCHRIFT ENDE-->
+        </div>
+        <hr/>
+        <div class="row" id="main-row">
+            <!--SCHULAUSWAHL ANFANG-->
+            <div class="col-lg-6" id="kategorie">
+                <h3 class="font-weight-lighter">Schritt 1</h3>
+                <p>Bitte wählen Sie die gewünschte Schule aus</p>
+                <form action="nelson.php">
+                    <button  type="submit" class="btn btn-primary btn-lg btn-block">Nelson-Mandela-Schule</button>
+                </form>
+                <form action="wangari.php">
+                    <button  type="submit" class="btn btn-primary btn-lg btn-block">Wangari-Maathai-Schule</button>
+                </form>   
+            </div>
+            <!--SCHULAUSWAHL ENDE-->
+
+            <!--BILD ANFANG-->
+            <div class="col-lg-6 col-md-6">
+                <img src="../img/Bild.jpg" class="bild" alt="">
+            </div>
+            <!--BILD ENDE-->
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
