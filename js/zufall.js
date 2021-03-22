@@ -1,3 +1,4 @@
+// ANZAHL DER BEWERBER, WIRD ANHAND DER REIHENANZAHL IN DER BEWERBERTALLE DEFINIERT
 var anzahl_bewerber = document.getElementById("bewerber-tabelle").rows.length - 1;
 
 window.onload = function () {
@@ -22,7 +23,7 @@ function gebeAnzahlFrei(){
     console.log(auswahlfeldZahl);
   }
 }
-
+// IN DAS ARRAY zahlen WERDEN DIE LOSNUMMERN (ZUFALLSZAHLEN) GEPUSHT   
 let zahlen = [];
 
 function losen() {
