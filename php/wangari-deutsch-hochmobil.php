@@ -50,6 +50,7 @@ if ($con->connect_error){
                 <p class="font-weight-bold" id="bewerberzahl">Liste der Bewerber*innen:</p>
             </div>
         </div>
+        <hr>
     </div>
     <!--ÜBERSCHRIFT ANFANG-->
     
