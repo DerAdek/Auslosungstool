@@ -70,7 +70,7 @@ if ($con->connect_error){
                         </thead>
                         <!--VERBINDUNG ZUR DATENBANK SCHUELER-->
                         <?php
-                        $con = mysqli_connect("localhost", "root", "", "Bewerberkinder2020");
+                        $con = mysqli_connect("localhost", "root", "", "Bewerberkinder 2020 WMS");
                         if ($con -> connect_error){
                         die("Verbindeung fehlgeschlagen: ". $con-> connect_error);
                         }
