@@ -102,7 +102,7 @@ function display2() {
   }
 }
 
-function myFunction() {
+function ausgabeTeilnehmer() {
   var teilnehmer_angabe = document.getElementById("namen").value;
   document.getElementById("teilnehmer").innerHTML = teilnehmer_angabe;
   if (teilnehmer_angabe == ""){

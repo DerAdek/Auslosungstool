@@ -171,7 +171,7 @@ if ($con->connect_error){
                         <input type="text" class="form-control" id="namen" placeholder="Herr Zufall, Frau Random, ..." disabled>
                         <small id="emailHelp" class="form-text text-muted">Trennen Sie die Namen durch Komma.</small>
                     </div>
-                    <button type="button" id="verschwinde" onclick="myFunction()" class="btn btn-dark btn-sm" disabled
+                    <button type="button" id="verschwinde" onclick="ausgabeTeilnehmer()" class="btn btn-dark btn-sm" disabled
                     style="width:100px;height:40px;">Bestätigen</button>
                 </form>
                 <div class="danke-box">
