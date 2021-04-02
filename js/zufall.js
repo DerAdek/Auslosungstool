@@ -91,7 +91,7 @@ function display2() {
   var gesamt = anzahl_reihen - anzahl;
   var datum = new Date();
   var inputField = document.getElementById("namen");
-  var bestaetigungsButton = document.getElementById("verschwinde");
+  var bestaetigungsButton = document.getElementById("abschluss-button");
 
   if (gesamt == listLength) {
     document.getElementById("losen-nachruecker").style.display = "none";
@@ -115,7 +115,7 @@ function ausgabeTeilnehmer() {
     document.getElementById("abschluss-heading").style.display = "none";
     document.getElementById("danke").style.display = "block";
     document.getElementById("namen").style.display = "none";
-    document.getElementById("verschwinde").style.display = "none";
+    document.getElementById("abschluss-button").style.display = "none";
     document.getElementById('tabelle-row').style.display = 'block';
     document.getElementById("next").style.display = 'block';
     window.print()
