@@ -15,7 +15,7 @@ function gebeAnzahlFrei(){
   var auswahlfeldZahl = auswahlfeld.value;
   var losbutton = document.getElementById("losen");
   if (anzahl_bewerber < auswahlfeldZahl){
-    alert("Hallo");
+    alert("Die von Ihnen ausgegebene Anzahl ist größer als die Anzahl der Bewerberkinder");
   }
   else{
     document.getElementById("anweisung").innerHTML = "Anzahl freie Schulplätze: " + auswahlfeldZahl + " Plätze";
